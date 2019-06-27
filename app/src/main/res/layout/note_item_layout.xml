@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="14dp"
+    android:layout_margin="4dp"
+    android:id="@+id/linear_layout"
+    android:background="@drawable/note_item_backgd"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="title"
+        android:text="Title"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/des_view"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="des"
+        android:text="i am new note"
+        android:maxLines="10"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>

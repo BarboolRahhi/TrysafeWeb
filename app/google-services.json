@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "910786965938",
+    "firebase_url": "https://trysafe-baf4f.firebaseio.com",
+    "project_id": "trysafe-baf4f",
+    "storage_bucket": "trysafe-baf4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910786965938:android:f55eb1b5113259cd",
+        "android_client_info": {
+          "package_name": "com.trysafe.trysafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910786965938-uuetjrqjog046pjldpdgk7k6pj7uf1t3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL16yzPlN7Ij7C3tK8poZI2HymqacQ9VA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910786965938-uuetjrqjog046pjldpdgk7k6pj7uf1t3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

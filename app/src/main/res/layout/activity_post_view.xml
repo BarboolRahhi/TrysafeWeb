@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostViewActivity">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/appBar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:elevation="6dp"-->
+            <!--&gt;-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/toolBar_layout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/imageClose"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+                    <!--android:clickable="true"-->
+                    <!--android:src="@drawable/cancle_button"-->
+                    <!--android:layout_centerVertical="true"/>-->
+
+
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/shareImage"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+                    <!--android:clickable="true"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:src="@drawable/share_icon"-->
+                    <!--android:layout_centerVertical="true"/>-->
+
+
+
+            <!--</RelativeLayout>-->
+
+
+        <!--</android.support.v7.widget.Toolbar>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_below="@+id/appBar"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:fontFamily="@font/inder"-->
+                <!--android:text="History tells us what may happen next with Brexit and Trump"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textSize="28sp"-->
+                <!--android:textStyle="bold"/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:src="@drawable/machinelearning"-->
+                <!--android:scaleType="centerCrop"/>-->
+
+            <!--&lt;!&ndash;<org.sufficientlysecure.htmltextview.HtmlTextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/html_text"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="18sp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_margin="16dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:fontFamily="@font/inder"/>&ndash;&gt;-->
+
+       <!---->
+        <!--</LinearLayout>-->
+
+
+
+
+    <!--</RelativeLayout>-->
+    <io.github.angebagui.mediumtextview.MediumTextView
+        android:id="@+id/medium_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+
+
+</ScrollView>

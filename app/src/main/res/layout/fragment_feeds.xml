@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinator_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgdColor"
+    tools:context=".FeedsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/white"
+            app:titleTextColor="@color/colorPrimary"
+            android:elevation="4dp">
+
+            <RelativeLayout
+                android:id="@+id/toolBar_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="120dp"
+                    android:layout_height="44dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/trysafelogo2"
+                    />
+
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/defaultavater"
+                    />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/postList"
+            android:layout_below="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+        <ProgressBar
+            android:id="@+id/loadProgressBar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
